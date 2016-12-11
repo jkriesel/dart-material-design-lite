@@ -63,6 +63,8 @@ class MaterialModel extends MdlComponent implements RefreshableComponent {
 
         // Re-Init
         _setupObserver();
+     
+        element.classes.add(_cssClasses.IS_UPGRADED);
     }
 
     //- private -----------------------------------------------------------------------------------
